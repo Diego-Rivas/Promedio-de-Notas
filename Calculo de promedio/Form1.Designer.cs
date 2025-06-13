@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.gbRegistro = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblError = new System.Windows.Forms.Label();
             this.txtNota_tres = new System.Windows.Forms.TextBox();
             this.txtNota_dos = new System.Windows.Forms.TextBox();
@@ -45,12 +46,11 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnNuevo_Regis = new System.Windows.Forms.Button();
             this.btnAgre_prome = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tlpAyuda = new System.Windows.Forms.ToolTip(this.components);
             this.gbRegistro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.gbPromedio.SuspendLayout();
             this.gbAcciones.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // gbRegistro
@@ -71,6 +71,16 @@
             this.gbRegistro.TabIndex = 0;
             this.gbRegistro.TabStop = false;
             this.gbRegistro.Text = "Registro de Notas";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Calculo_de_promedio.Properties.Resources.icons8_usuario_100;
+            this.pictureBox1.Location = new System.Drawing.Point(327, 33);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(150, 89);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
             // 
             // lblError
             // 
@@ -150,6 +160,7 @@
             // 
             this.txtPromedio.Location = new System.Drawing.Point(226, 101);
             this.txtPromedio.Name = "txtPromedio";
+            this.txtPromedio.ReadOnly = true;
             this.txtPromedio.Size = new System.Drawing.Size(218, 24);
             this.txtPromedio.TabIndex = 1;
             // 
@@ -187,6 +198,7 @@
             this.btnSalir.TabIndex = 2;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnNuevo_Regis
             // 
@@ -198,6 +210,7 @@
             this.btnNuevo_Regis.TabIndex = 1;
             this.btnNuevo_Regis.Text = "Nuevo Registro";
             this.btnNuevo_Regis.UseVisualStyleBackColor = true;
+            this.btnNuevo_Regis.Click += new System.EventHandler(this.btnNuevo_Regis_Click);
             // 
             // btnAgre_prome
             // 
@@ -210,16 +223,7 @@
             this.btnAgre_prome.TabIndex = 0;
             this.btnAgre_prome.Text = "Agregar Pormedio";
             this.btnAgre_prome.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Calculo_de_promedio.Properties.Resources.icons8_usuario_100;
-            this.pictureBox1.Location = new System.Drawing.Point(327, 33);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 89);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.btnAgre_prome.Click += new System.EventHandler(this.btnAgre_prome_Click);
             // 
             // tlpAyuda
             // 
@@ -242,10 +246,10 @@
             this.Text = "Sistema de Notas ITR";
             this.gbRegistro.ResumeLayout(false);
             this.gbRegistro.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.gbPromedio.ResumeLayout(false);
             this.gbPromedio.PerformLayout();
             this.gbAcciones.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

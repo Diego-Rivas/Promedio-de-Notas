@@ -8,3 +8,13 @@ C:\Users\Estudiante\Desktop\Calculo de promedio\Calculo de promedio\obj\Debug\Ca
 C:\Users\Estudiante\Desktop\Calculo de promedio\Calculo de promedio\obj\Debug\Calculo de promedio.csproj.CoreCompileInputs.cache
 C:\Users\Estudiante\Desktop\Calculo de promedio\Calculo de promedio\obj\Debug\Calculo de promedio.exe
 C:\Users\Estudiante\Desktop\Calculo de promedio\Calculo de promedio\obj\Debug\Calculo de promedio.pdb
+C:\Users\Estudiante\Desktop\Promedio-de-Notas\Calculo de promedio\bin\Debug\Calculo de promedio.exe.config
+C:\Users\Estudiante\Desktop\Promedio-de-Notas\Calculo de promedio\bin\Debug\Calculo de promedio.exe
+C:\Users\Estudiante\Desktop\Promedio-de-Notas\Calculo de promedio\bin\Debug\Calculo de promedio.pdb
+C:\Users\Estudiante\Desktop\Promedio-de-Notas\Calculo de promedio\obj\Debug\Calculo de promedio.csproj.AssemblyReference.cache
+C:\Users\Estudiante\Desktop\Promedio-de-Notas\Calculo de promedio\obj\Debug\Calculo_de_promedio.Form1.resources
+C:\Users\Estudiante\Desktop\Promedio-de-Notas\Calculo de promedio\obj\Debug\Calculo_de_promedio.Properties.Resources.resources
+C:\Users\Estudiante\Desktop\Promedio-de-Notas\Calculo de promedio\obj\Debug\Calculo de promedio.csproj.GenerateResource.cache
+C:\Users\Estudiante\Desktop\Promedio-de-Notas\Calculo de promedio\obj\Debug\Calculo de promedio.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\Desktop\Promedio-de-Notas\Calculo de promedio\obj\Debug\Calculo de promedio.exe
+C:\Users\Estudiante\Desktop\Promedio-de-Notas\Calculo de promedio\obj\Debug\Calculo de promedio.pdb
